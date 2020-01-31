@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/admin"
+    android:background="@drawable/thapar_university"
     tools:context=".AdminLogin">
 
     <LinearLayout
@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:hint="Staff ID"
+            android:hint="Admin ID"
             android:textColor="@color/black"
             android:textColorHint="@color/darkgray"
             android:inputType="textEmailAddress"/>
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:padding="16dp"
-            android:text="Register a Staff"
+            android:text="Register as Admin"
             android:textColor="@color/button"
             android:textAlignment="center"/>
 

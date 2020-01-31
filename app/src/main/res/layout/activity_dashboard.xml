@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/queensland"
+    android:background="@drawable/thapar_university"
     tools:context=".DashboardActivity">
 
     <LinearLayout
@@ -152,6 +152,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:orientation="horizontal"
+        android:id="@+id/ll"
         android:weightSum="1">
 
         <android.support.v7.widget.CardView
@@ -196,5 +197,15 @@
         </android.support.v7.widget.CardView>
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/findUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FIND US"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+
 
 </LinearLayout>

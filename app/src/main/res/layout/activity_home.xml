@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/queensland"
+    android:background="@drawable/thapar_university"
     android:orientation="vertical"
     tools:context=".HomeActivity">
 
@@ -61,7 +61,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Get a brief introduction to Abuja electricity distributtion company"
+                    android:text="Get a brief introduction to Thapar Institute of Engineering &amp; Technology"
                     android:layout_marginTop="16dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"

@@ -15,6 +15,7 @@ public class DashboardActivity extends AppCompatActivity {
     CardView cdacctsetting;
     CardView cdmakecomplaint;
     CardView cdcomplainthistory;
+    Button findUs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,7 @@ public class DashboardActivity extends AppCompatActivity {
         cdacctsetting = (CardView) findViewById(R.id.cdacctsetting);
         cdmakecomplaint = (CardView) findViewById(R.id.cdmakecomplaint);
         cdcomplainthistory = (CardView) findViewById(R.id.cdcomplainthistory);
+        findUs = findViewById(R.id.findUs);
 
         cdintro.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,6 +59,14 @@ public class DashboardActivity extends AppCompatActivity {
                 Snackbar.make(v, "Requires administrative priviledges..Sorry", Snackbar.LENGTH_LONG).show();
 //                Intent introIntent = new Intent(DashboardActivity.this, ComplaintHistory.class);
 //                startActivity(introIntent);
+            }
+        });
+
+        findUs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mapsIntent = new Intent(DashboardActivity.this, MapsActivity.class);
+                startActivity(mapsIntent);
             }
         });
     }

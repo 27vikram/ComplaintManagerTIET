@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/thapar_university"
     android:layout_height="match_parent"
     tools:context=".StaffRegister">
 
@@ -24,7 +25,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:ems="10"
-            android:hint="Staff ID"
+            android:hint="Admin ID"
             android:textColorHint="@color/darkgray"
             android:textColor="@color/black"
             android:inputType="textPersonName" />
